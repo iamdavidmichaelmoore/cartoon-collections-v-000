@@ -12,11 +12,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  measured_words = []
-  array.detect {|measure| measure.length > 4
-    measured_words << measure
-  }
-  measured_words.include?(false) ? true : false
+  array.detect {|measure| measure.length > 4}
 end
 
 def find_the_cheese# code an argument here
