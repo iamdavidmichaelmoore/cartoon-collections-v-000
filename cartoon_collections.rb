@@ -8,6 +8,7 @@ def summon_captain_planet(array)
   array.collect do |mod|
     capitalizes = mod.capitalize
     capitalizes + "!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
