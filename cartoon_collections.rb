@@ -26,9 +26,7 @@ def find_the_cheese(array)
     if cheese_types.include?(search_word)
       word = search_word
     else
-      false
+      nil
     end
-    word
   end
-  false
 end
